@@ -11,7 +11,7 @@ return {
   },
   cmd = 'Neotree',
   keys = {
-    { '\\', ':Neotree source=filesystem reveal=true position=left<CR>', { desc = 'NeoTree reveal' } },
+    { '<leader>ee', ':Neotree source=filesystem reveal=true position=left<CR>', { desc = 'NeoTree reveal' } },
   },
   opts = {
     source_selector = {
@@ -30,7 +30,7 @@ return {
     filesystem = {
       window = {
         mappings = {
-          ['\\'] = 'close_window',
+          ['<leader>ee'] = 'close_window',
         },
       },
     },
